@@ -42,8 +42,8 @@ const Sidebar = () => {
   return (
     <>
       <header className="fixed top-0 left-0 w-full bg-background md:bg-transparent p-6 pb-2 flex justify-between items-center z-50">
-        <span className="pl-2 text-gl font-normal uppercase lg:text-xl lg:pl-4">
-          Haran Oleksandr
+        <span className="pl-2 text-sm font-normal uppercase lg:text-base lg:pl-4">
+          Aleks Haran
         </span>
         <button
           onClick={() => setIsOpen(!isOpen)}

@@ -7,11 +7,49 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
 });
-
 export const metadata: Metadata = {
+  metadataBase: new URL("http://localhost:3000"),
   title: "My Portfolio - Oleksandr Haran",
   description:
     "Welcome to my portfolio! Here you can find my projects and contact information.",
+  authors: [{ name: "Oleksandr Haran" }],
+  keywords: [
+    "portfolio",
+    "web developer",
+    "react",
+    "node",
+    "typescript",
+    "frontend",
+    "backend",
+  ],
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
+  openGraph: {
+    title: "My Portfolio - Oleksandr Haran",
+    description:
+      "Welcome to my portfolio! Here you can find my projects and contact information.",
+    url: "https://myportfolio.vite.dev/",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "My Portfolio",
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
@@ -21,45 +59,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <meta
-          name="description"
-          content="Welcome to my portfolio! Here you can find my projects and contact information."
-        />
-        <meta
-          name="keywords"
-          content="portfolio, web developer, react, node, typescript, frontend, backend"
-        />
-        <meta name="author" content="Oleksandr Haran" />
-        <meta
-          property="og:title"
-          content="My Portfolio - My Portfolio - Oleksandr Haran"
-        />
-        <meta
-          property="og:description"
-          content="Welcome to my portfolio! Here you can find my projects and contact information."
-        />
-        <meta
-          property="og:image"
-          content="https://myportfolio.com/og-image.jpg"
-        />
-        <meta property="og:url" content="https://myportfolio.com" />
-        <meta property="og:type" content="website" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="UTF-8" />
-        <meta name="robots" content="index, follow" />
-        <link
-          rel="icon"
-          href="/assets/favicon-light.png"
-          media="(prefers-color-scheme: light)"
-        />
-        <link
-          rel="icon"
-          href="/assets/favicon-dark.png"
-          media="(prefers-color-scheme: dark)"
-        />
-      </head>
-
       <body className={`${poppins.variable}`}>{children}</body>
     </html>
   );

@@ -2,10 +2,17 @@ import type { Config } from "tailwindcss";
 import tailwindcssAnimate from "tailwindcss-animate";
 
 const config: Config = {
-  darkMode: ["class"],
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
+      screens: {
+        sm: "640px",
+        md: "768px",
+        mdx: "836px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -52,6 +59,10 @@ const config: Config = {
           "4": "var(--chart-4)",
           "5": "var(--chart-5)",
         },
+      },
+      backgroundImage: {
+        "card-gradient":
+          "linear-gradient(18deg, var(--background) 50%, var(--accent))",
       },
       boxShadow: {
         boxShadow: "var(--box-shadow-main)",
