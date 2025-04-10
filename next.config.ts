@@ -1,10 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  devIndicators: {
-    buildActivity: false,
-  },
+  output: "export",
+  devIndicators: false,
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -13,7 +13,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  output: "standalone",
 };
 
 export default nextConfig;
