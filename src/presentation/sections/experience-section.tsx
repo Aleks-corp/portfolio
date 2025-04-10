@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { experiences } from "@/domain/experience/experienceData";
+import { experiences } from "@/infrastructure/data/experience/experience-data";
 import { Briefcase, Code2, School, Layers } from "lucide-react";
 
 export default function ExperienceSection() {

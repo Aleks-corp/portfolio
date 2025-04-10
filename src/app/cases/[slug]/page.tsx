@@ -1,6 +1,6 @@
-import { projects } from "@/domain/projects/data/projectsData";
+import { projects } from "@/infrastructure/data/projects/projects-data";
 import { notFound } from "next/navigation";
-import ProjectCase from "./_components/ProjectCase";
+import ProjectCase from "@/presentation/pages/cases/project-case";
 import { use } from "react";
 
 export const dynamic = "force-static";

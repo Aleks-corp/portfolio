@@ -1,7 +1,7 @@
 "use client";
 
-import { projects } from "@/domain/projects/data/projectsData";
-import ProjectCard from "./project-card";
+import { projects } from "@/infrastructure/data/projects/projects-data";
+import ProjectCard from "../components/project-card";
 import Link from "next/link";
 
 export default function WorkSection() {

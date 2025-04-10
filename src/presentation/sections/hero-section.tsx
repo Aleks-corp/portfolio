@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import Button from "./button";
+import Button from "../components/button";
 
 export default function HeroSection() {
   return (

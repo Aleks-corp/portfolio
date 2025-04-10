@@ -3,15 +3,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { Menu } from "lucide-react";
-
-const sections = [
-  { id: "intro", label: "Intro" },
-  { id: "work", label: "Work" },
-  { id: "experience", label: "Experience" },
-  { id: "skills", label: "Skills" },
-  { id: "references", label: "References" },
-  { id: "contact", label: "Contact" },
-];
+import { sections } from "@/infrastructure/data/sections/sections-data";
 
 const Sidebar = () => {
   const [activeSection, setActiveSection] = useState("");

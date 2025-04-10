@@ -1,15 +1,7 @@
 "use client";
 
 import Image from "next/image";
-
-interface Project {
-  title: string;
-  description: string;
-  tags: string[];
-  images: string[];
-  company: string;
-  year: number;
-}
+import { Project } from "@/domain/projects/projects-repository";
 
 export default function ProjectCard({
   title,

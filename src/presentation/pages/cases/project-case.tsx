@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import type { Project } from "@/domain/projects/data/projectsData";
+import type { Project } from "@/domain/projects/projects-repository";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
