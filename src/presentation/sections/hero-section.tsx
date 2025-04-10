@@ -35,7 +35,7 @@ export default function HeroSection() {
         wrapper="span"
         speed={50}
         repeat={Infinity}
-        className="text-base text-center sm:text-lg sm:text:start lg:text-xl text-gray-600 mt-2"
+        className="text-base text-center sm:text-lg sm:text:start lg:text-xl text-muted-foreground mt-2"
       />
       <motion.div
         className="mt-8 flex flex-col sm:flex-row gap-6 w-full justify-center md:justify-start"

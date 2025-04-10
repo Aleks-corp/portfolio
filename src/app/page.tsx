@@ -7,6 +7,7 @@ import References from "@/presentation/sections/reference-section";
 import Sidebar from "@/presentation/components/side-bar";
 import Skills from "@/presentation/sections/skills-section";
 import WorkSection from "@/presentation/sections/work-section";
+import Footer from "@/presentation/components/footer";
 
 export default function Home() {
   return (
@@ -20,9 +21,7 @@ export default function Home() {
         <References />
         <Contact />
       </main>
-      <footer>
-        <div className="h-60 pl-60">Footer</div>
-      </footer>
+      <Footer />
     </>
   );
 }

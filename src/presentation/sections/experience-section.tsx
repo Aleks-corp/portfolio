@@ -16,7 +16,7 @@ export default function ExperienceSection() {
       id="experience"
       className="relative mt-16 mb-20 mx-6 md:ml-0 px-4 sm:px-6"
     >
-      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground mb-10">
+      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground mb-20">
         Work Experience
       </h2>
 
