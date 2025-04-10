@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { projects } from "@/domain/projects/projects-repository";
+import { projects } from "@/infrastructure/data/projects/projects-data";
 
 export async function generateMetadata({
   params,
