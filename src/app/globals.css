@@ -17,6 +17,7 @@
   --muted-foreground: #a8a29e;
   --accent: #ddff00;
   --accent-foreground: #ddff0033;
+  --accent-gradient: #ddff0080;
   --box-shadow-main: #ddff00c3 0px 0.60219px 3.01094px -1.33333px,
     #ddff00a9 0px 2.28853px 11.4427px -2.66667px, #ddff0033 0px 1px 1px 1px;
   --box-shadow-hover: #ddff00c3 0px 0.60219px 3.01094px -1.33333px,

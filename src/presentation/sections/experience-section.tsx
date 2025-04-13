@@ -36,7 +36,7 @@ export default function ExperienceSection() {
                 <Icon className="w-6 h-6 text-accent" />
               </div>
 
-              <h3 className="text-xl sm:text-2xl font-semibold text-foreground">
+              <h3 className="text-xl sm:text-xl font-semibold text-foreground">
                 {exp.role}
               </h3>
 

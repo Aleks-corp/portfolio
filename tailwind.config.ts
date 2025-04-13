@@ -62,7 +62,9 @@ const config: Config = {
       },
       backgroundImage: {
         "card-gradient":
-          "linear-gradient(18deg, var(--background) 50%, var(--accent))",
+          "linear-gradient(18deg, var(--background) 50%, var(--accent-gradient))",
+        "icon-gradient":
+          "linear-gradient(-45deg, var(--background) 50%, var(--accent-gradient))",
       },
       boxShadow: {
         boxShadow: "var(--box-shadow-main)",
