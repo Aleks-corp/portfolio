@@ -1,7 +1,7 @@
 export const services = [
   {
     title: "Standard Web App",
-    price: "$900",
+    price: "$750",
     items: [
       {
         icon: "LayoutGrid",
@@ -13,13 +13,13 @@ export const services = [
       },
       {
         icon: "Rocket",
-        text: "Deployed & ready to launch in 7–10 days",
+        text: "Deployed & ready to launch in 7–14 days",
       },
     ],
   },
   {
     title: "App + Service Integration",
-    price: "$1700",
+    price: "$1500",
     items: [
       {
         icon: "ServerCog",
@@ -31,13 +31,13 @@ export const services = [
       },
       {
         icon: "Timer",
-        text: "Delivery 2–3 weeks",
+        text: "Delivery 2–4 weeks",
       },
     ],
   },
   {
     title: "Full-stack Business App",
-    price: "$3000+",
+    price: "$2000+",
     items: [
       {
         icon: "ShieldCheck",
