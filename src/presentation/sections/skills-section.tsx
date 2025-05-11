@@ -52,9 +52,9 @@ export default function Skills() {
               </motion.div>
 
               <div className="text-muted-foreground">
-                <h4 className="text-foreground font-semibold text-base sm:text-lg mb-4">
+                <h3 className="text-foreground font-semibold text-base sm:text-lg mb-4">
                   {item.title}
-                </h4>
+                </h3>
                 <p className="text-base leading-relaxed">{item.description}</p>
               </div>
             </div>
@@ -83,9 +83,9 @@ export default function Skills() {
                 </div>
               </motion.div>
               <div className="text-muted-foreground">
-                <h4 className="text-foreground font-semibold text-base sm:text-lg mb-4">
+                <h3 className="text-foreground font-semibold text-base sm:text-lg mb-4">
                   {tool.title}
-                </h4>
+                </h3>
                 <p className="text-base leading-relaxed">{tool.description}</p>
               </div>
             </div>

@@ -44,9 +44,9 @@ export default function Contact() {
             ideas into value-driven, user-focused products that deliver
             measurable impact.
           </p>
-          <h4 className="text-foreground text-xl sm:text-2xl mb-8">
+          <h3 className="text-foreground text-xl sm:text-2xl mb-8">
             My services
-          </h4>
+          </h3>
           <div className="grid gap-6 sm:grid-cols-1 lg:grid-cols-1 text-white">
             {services.map((service, i) => (
               <div
