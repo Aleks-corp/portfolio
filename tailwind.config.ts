@@ -65,6 +65,8 @@ const config: Config = {
           "linear-gradient(18deg, var(--background) 50%, var(--accent-gradient))",
         "icon-gradient":
           "linear-gradient(-45deg, var(--background) 50%, var(--accent-gradient))",
+        "contact-gradient":
+          "linear-gradient(18deg, var(--background) 20%, var(--accent-gradient))",
       },
       boxShadow: {
         boxShadow: "var(--box-shadow-main)",

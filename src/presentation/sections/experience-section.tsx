@@ -14,9 +14,9 @@ export default function ExperienceSection() {
   return (
     <section
       id="experience"
-      className="relative mt-16 mb-20 mx-6 md:ml-0 px-4 sm:px-6"
+      className="relative mt-16 mb-20 mx-6 md:ml-0 px-4 sm:px-6 max-w-5xl"
     >
-      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground mb-20">
+      <h2 className="text-3xl sm:text-4xl font-medium tracking-tight text-foreground mb-16">
         Work Experience
       </h2>
 
@@ -44,7 +44,7 @@ export default function ExperienceSection() {
                 {exp.company} • {exp.years}
               </p>
 
-              <p className="mt-4 text-foreground text-base sm:text-lg max-w-3xl leading-relaxed">
+              <p className="mt-4 text-foreground text-base sm:text-lg leading-relaxed">
                 {exp.description}
               </p>
             </motion.div>

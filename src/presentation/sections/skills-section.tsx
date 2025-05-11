@@ -28,13 +28,13 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="relative mt-16 mb-20 mx-6 md:ml-0 px-4 sm:px-6"
+      className="relative mt-16 mb-20 mx-6 md:ml-0 px-4 sm:px-6 max-w-5xl"
     >
-      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground mb-20">
+      <h2 className="text-3xl sm:text-4xl font-medium tracking-tight text-foreground mb-16">
         What I do
       </h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-24">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
         {clientOffers.map((item, index) => {
           const Icon = iconMap[item.icon as keyof typeof iconMap] || Code;
           return (
@@ -52,7 +52,7 @@ export default function Skills() {
               </motion.div>
 
               <div className="text-muted-foreground">
-                <h4 className="text-foreground font-semibold text-base sm:text-lg mb-1">
+                <h4 className="text-foreground font-semibold text-base sm:text-lg mb-4">
                   {item.title}
                 </h4>
                 <p className="text-base leading-relaxed">{item.description}</p>
@@ -62,7 +62,7 @@ export default function Skills() {
         })}
       </div>
 
-      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground mb-20">
+      <h2 className="text-3xl sm:text-4xl font-medium tracking-tight text-foreground mb-16">
         My Core Tech Skills
       </h2>
 
@@ -83,7 +83,7 @@ export default function Skills() {
                 </div>
               </motion.div>
               <div className="text-muted-foreground">
-                <h4 className="text-foreground font-semibold text-base sm:text-lg mb-1">
+                <h4 className="text-foreground font-semibold text-base sm:text-lg mb-4">
                   {tool.title}
                 </h4>
                 <p className="text-base leading-relaxed">{tool.description}</p>

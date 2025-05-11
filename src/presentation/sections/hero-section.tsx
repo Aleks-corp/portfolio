@@ -48,7 +48,10 @@ export default function HeroSection() {
           text="Get in touch"
           type="button"
           onClick={() => {
-            console.log("hello");
+            window.open(
+              "https://www.linkedin.com/in/aleks-haran-dev/",
+              "_blank"
+            );
           }}
         />
         <Button
@@ -56,7 +59,7 @@ export default function HeroSection() {
           text="My Work"
           type="button"
           onClick={() => {
-            console.log("hello");
+            window.open("https://github.com/Aleks-corp", "_blank");
           }}
         />
       </motion.div>

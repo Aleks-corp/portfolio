@@ -9,8 +9,9 @@ export default function WorkSection() {
     <section id="work" className="relative mt-16 mb-20 mx-6 md:ml-0">
       <div className="px-4 sm:px-6 md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
         {projects.map((project, index) => {
-          const offsetClass = `${80 + index * 40}px`;
-          const marginBottom = `${80 - index * 40}px`;
+          const offsetClass = `${40 + index * 20}px`;
+          const marginBottom = `${40 - index * 20}px`;
+          const maxWidth = `${64-index*32}px`
 
           return (
             <div
@@ -18,6 +19,7 @@ export default function WorkSection() {
               style={{
                 position: "sticky",
                 zIndex: index,
+                paddingInline: maxWidth,
                 top: offsetClass,
                 marginBottom: marginBottom,
               }}
