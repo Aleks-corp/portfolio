@@ -99,7 +99,7 @@ export default function Contact() {
         <div className="flex-1 w-full md:max-w-96 lg:sticky lg:top-20 self-start rounded-xl p-[2px] bg-contact-gradient">
           <div className="w-full aspect-[3/4] relative overflow-hidden rounded-xl bg-background">
             <Image
-              src="/Frame_6.jpg"
+              src="/Frame_6.webp"
               alt="My Photo"
               fill
               className="object-cover rounded-xl"
