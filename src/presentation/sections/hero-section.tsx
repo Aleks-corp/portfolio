@@ -16,16 +16,18 @@ export default function HeroSection() {
           Open to New Projects
         </span>
       </div>
-      <motion.h1
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-        className="text-2xl min-[440px]:text-3xl font-medium text-center sm:text-3xl mdx:text-4xl mdx:leading-snug md:text-start lg:text-[44px] lg:leading-snug xl:text-6xl xl:leading-snug"
-      >
-        I build seamless full-stack
-        <br /> applications,
-        <br className="block sm:hidden" /> from front to back.
-      </motion.h1>
+      <div>
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="text-2xl min-[440px]:text-3xl font-medium text-center sm:text-3xl mdx:text-4xl mdx:leading-snug md:text-start lg:text-[44px] lg:leading-snug xl:text-6xl xl:leading-snug"
+        >
+          I build seamless full-stack
+          <br /> applications,
+          <br className="block sm:hidden" /> from front to back.
+        </motion.h1>
+      </div>
 
       <TypeAnimation
         sequence={[
