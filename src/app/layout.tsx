@@ -8,10 +8,10 @@ const poppins = Poppins({
   weight: ["400", "500", "700"],
 });
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://aleks-haran-portfolio.onrender.com"),
   title: "My Portfolio - Oleksandr Haran",
   description:
-    "Welcome to my portfolio! Here you can find my projects and contact information.",
+    "I’m a full-stack web developer specializing in React, Next.js, and Node.js. Explore my portfolio, recent projects, and contact options.",
   authors: [{ name: "Oleksandr Haran" }],
   keywords: [
     "portfolio",
@@ -32,18 +32,27 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "My Portfolio - Oleksandr Haran",
+    title: "Oleksandr Haran – Full-stack Developer",
     description:
       "Welcome to my portfolio! Here you can find my projects and contact information.",
-    url: "https://myportfolio.vite.dev/",
+    url: "https://aleks-haran-portfolio.onrender.com",
     type: "website",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://res.cloudinary.com/deeooeyeg/image/upload/v1746993028/portfolio/2025-05-11_22-44_vpdtiz.jpg",
         width: 1200,
-        height: 630,
-        alt: "My Portfolio",
+        height: 600,
+        alt: "Oleksandr Haran – Portfolio Preview",
       },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Oleksandr Haran – Full-stack Developer",
+    description:
+      "Explore my portfolio built with React, Next.js, and Node.js. Custom, scalable web solutions.",
+    images: [
+      "https://res.cloudinary.com/deeooeyeg/image/upload/v1746993028/portfolio/2025-05-11_22-44_vpdtiz.jpg",
     ],
   },
   robots: {
